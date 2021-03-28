@@ -1,0 +1,33 @@
+# server_field_names.yaml
+--- 
+lists: 
+  - admin
+  - motd
+  - headlessClients
+  - localClient
+  - allowedLoadFileExtensions
+  - allowedPreprocessFileExtensions
+  - allowedHTMLLoadExtensions
+  - filePatchingExceptions
+  - kickClientsOnSlowNetwork
+  - votingTimeOut
+  - roleTimeOut
+  - briefingTimeOut
+  - debriefingTimeOut
+  - missionWhitelist
+
+nested_lists:
+  - allowedVoteCmds
+  - allowedVotedAdminCmds
+  - kickTimeout
+  - disableChannels
+
+specials:
+  - missions
+  - param
+
+reserved:
+  - name
+  - config
+  - port
+  - mods

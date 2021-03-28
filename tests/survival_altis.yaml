@@ -1,0 +1,33 @@
+hostname: "survival altis"
+password: "farts"
+passwordAdmin: "notfarts"
+maxPlayers: 20
+disableVoN: 1
+persistent: 1
+BattlEye: 0
+
+headlessClients:
+  - "127.0.0.1"
+  - "192.168.2.210"
+
+localClient: 
+  - "127.0.0.1"
+  - "192.168.2.210"
+
+missionWhitelist:
+  - "Arma3Survival.Altis"
+
+missions:
+  survival:
+    template: "Arma3Survival.Altis"
+    difficulty: "Regular"
+    params:
+      BLWK_randomizeEnemyWeapons: 1
+      BLWK_timeBetweenRounds: 180
+      BLWK_startingKillPoints: 1000
+      BLWK_startingCommunityKillPoints: 1000
+      BLWK_loot_whiteListMode: 2
+      BLWK_saveRespawnLoadout: 1
+      BLWK_faksToMakeMedkit: 5
+
+

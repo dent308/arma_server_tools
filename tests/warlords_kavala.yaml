@@ -1,0 +1,50 @@
+name: "warlords kavala"
+hostname: "warlords kavala"
+password: "farts"
+passwordAdmin: "notfarts"
+disableVon: 1
+timeStampFormat: "short"
+kickDuplicate: 1
+BattlEye: 0
+missionWhitelist: ~
+allowedVoteCmds:
+  -
+    - "admin"
+  - 
+    - "missions"
+    - True
+    - False
+    - 0.5
+  -
+    - "mission"
+    - True
+    - True
+  -
+    - "kick"
+    - False
+    - False
+    - 0.75
+  - 
+    - "restart"
+    - True
+    - True
+    - -1
+  - 
+    - "reassign"
+    - False
+    - True
+    - 0.5
+  -
+    - "kick"
+    - True
+    - True
+    - 0.55
+    - 0.30
+
+
+missions:
+  Warlords:
+    template: "warlords_kavala.Altis"
+    difficulty: "Regular"
+
+mods: ~
